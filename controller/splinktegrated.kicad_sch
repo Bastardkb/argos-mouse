@@ -6096,10 +6096,6 @@
 		(uuid "2aa226ed-46b6-4d43-8204-14e404603679")
 	)
 	(no_connect
-		(at 182.88 83.82)
-		(uuid "2aa226ed-46b6-4d43-8204-14e40460367a")
-	)
-	(no_connect
 		(at 182.88 104.14)
 		(uuid "2aa226ed-46b6-4d43-8204-14e40460367b")
 	)
@@ -9060,6 +9056,27 @@
 		)
 		(uuid "fb115a31-0c8d-4f53-bd1d-76b12b0bf9a9")
 	)
+	(global_label "RGB"
+		(shape input)
+		(at 299.72 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11e223ae-df32-4401-aa26-00293b33cb5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.1902 45.6406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NCS"
 		(shape input)
 		(at 353.06 60.96 180)
@@ -9197,6 +9214,27 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB"
+		(shape input)
+		(at 182.88 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c030b08d-7676-47e9-90c0-e158423ae217")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.4098 83.8994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10179,6 +10217,71 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 299.72 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "200c6125-78a4-43c2-90a7-6b9d0deb205b")
+		(property "Reference" "#PWR03"
+			(at 293.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a116ef47-0036-4808-ba32-f8d6e3f298bd")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -14543,6 +14646,71 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 299.72 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e725014e-540e-4a8f-9fd6-e5e9380b8360")
+		(property "Reference" "#PWR07"
+			(at 303.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 295.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "039ce5c3-5ec6-4a09-84f2-663bf66f5374")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
