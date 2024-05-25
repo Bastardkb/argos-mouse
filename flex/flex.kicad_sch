@@ -1161,10 +1161,10 @@
 		)
 	)
 	(junction
-		(at 43.18 26.67)
+		(at 43.18 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "35048410-cd65-4247-a06d-6178aa2eb141")
+		(uuid "1b2a0303-efd4-4d13-8d9d-92eb5da6f836")
 	)
 	(junction
 		(at 111.76 50.8)
@@ -1179,22 +1179,22 @@
 		(uuid "51f963d4-aa86-45e4-af11-c5bc941336ff")
 	)
 	(junction
+		(at 43.18 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80142679-b2d4-4414-a50a-89fde0f7349b")
+	)
+	(junction
 		(at 111.76 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8509f275-54ea-4f37-8a34-d79cb2323b5f")
 	)
 	(junction
-		(at 43.18 33.02)
+		(at 43.18 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "96a425cb-dc2b-4b3b-967b-32a934553143")
-	)
-	(junction
-		(at 43.18 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbfa6dec-25e3-4807-bbd3-76cfb4dee4dd")
+		(uuid "a848651f-4ce0-4dff-ba8f-f2bf64950334")
 	)
 	(junction
 		(at 90.17 50.8)
@@ -1266,7 +1266,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 33.02) (xy 43.18 26.67)
+			(xy 43.18 26.67) (xy 43.18 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1366,23 +1366,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 43.18) (xy 43.18 38.1)
+			(xy 43.18 33.02) (xy 43.18 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "983007b4-2632-4520-a801-147225d122d1")
-	)
-	(wire
-		(pts
-			(xy 43.18 38.1) (xy 43.18 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a41e20-c76d-4dad-b359-68aad2c4d476")
 	)
 	(wire
 		(pts
@@ -1413,6 +1403,16 @@
 			(type default)
 		)
 		(uuid "d40ffdaf-1db3-470b-963c-192dea09de5a")
+	)
+	(wire
+		(pts
+			(xy 43.18 38.1) (xy 43.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bb12be-c536-49c2-9b5e-872a3ce46545")
 	)
 	(wire
 		(pts
@@ -1777,7 +1777,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 38.1 33.02 0)
+		(at 38.1 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1785,7 +1785,7 @@
 		(dnp no)
 		(uuid "0aab397a-7cb4-4e1c-a0b7-660eecea3d4f")
 		(property "Reference" "SW7"
-			(at 38.1 25.4 0)
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1793,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 38.1 27.94 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +1801,7 @@
 			)
 		)
 		(property "Footprint" "custom:choc"
-			(at 38.1 27.94 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 27.94 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +1819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 33.02 0)
+			(at 38.1 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +1988,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 38.1 38.1 0)
+		(at 38.1 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1996,140 +1996,6 @@
 		(dnp no)
 		(uuid "2b2491a6-2dcc-4e2a-b283-ed31c3ce5e42")
 		(property "Reference" "SW6"
-			(at 38.1 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 38.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom:choc"
-			(at 38.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ac28e12-4024-4408-abce-4a0105c2b634")
-		)
-		(pin "2"
-			(uuid "41eac178-9cd0-4a20-99db-9ba9644fe8da")
-		)
-		(instances
-			(project "flex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 38.1 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "43f2a464-323d-45d4-9815-c4e913a1ecb0")
-		(property "Reference" "SW8"
-			(at 38.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom:choc"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "515b0b79-9838-4e89-a433-eadd73351741")
-		)
-		(pin "2"
-			(uuid "5ebdf3fc-a3fe-4cee-af0c-acd40035614a")
-		)
-		(instances
-			(project "flex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 38.1 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "44fd5504-d084-44ca-b736-b82954508c71")
-		(property "Reference" "SW5"
 			(at 38.1 19.05 0)
 			(effects
 				(font
@@ -2165,6 +2031,140 @@
 		)
 		(property "Description" ""
 			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ac28e12-4024-4408-abce-4a0105c2b634")
+		)
+		(pin "2"
+			(uuid "41eac178-9cd0-4a20-99db-9ba9644fe8da")
+		)
+		(instances
+			(project "flex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 38.1 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "43f2a464-323d-45d4-9815-c4e913a1ecb0")
+		(property "Reference" "SW8"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:choc"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "515b0b79-9838-4e89-a433-eadd73351741")
+		)
+		(pin "2"
+			(uuid "5ebdf3fc-a3fe-4cee-af0c-acd40035614a")
+		)
+		(instances
+			(project "flex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 38.1 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "44fd5504-d084-44ca-b736-b82954508c71")
+		(property "Reference" "SW5"
+			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:choc"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
