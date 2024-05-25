@@ -8968,7 +8968,7 @@
 		)
 		(uuid "08113bc4-b061-47b3-9b7c-c6cb701030ec")
 	)
-	(label "A0"
+	(label "GP26"
 		(at 353.06 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9078,7 +9078,7 @@
 		)
 		(uuid "2c778ebc-1a69-4bce-a862-f524b7f118fe")
 	)
-	(label "A1"
+	(label "GP27"
 		(at 182.88 129.54 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9188,7 +9188,7 @@
 		)
 		(uuid "6850e4b4-9964-4527-8b18-3371f12676c5")
 	)
-	(label "A0"
+	(label "GP26"
 		(at 182.88 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9221,7 +9221,7 @@
 		)
 		(uuid "721c0a1e-1ddf-4e56-a835-59436dd8fd8d")
 	)
-	(label "A1"
+	(label "GP27"
 		(at 353.06 58.42 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9408,7 +9408,7 @@
 		)
 		(uuid "d68ac627-d6db-42a9-8573-0ef76e1824e1")
 	)
-	(label "A1"
+	(label "GP27"
 		(at 391.16 43.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9485,7 +9485,7 @@
 		)
 		(uuid "f4d9a36b-3c1f-452f-8b70-594288b034ff")
 	)
-	(label "A0"
+	(label "GP26"
 		(at 391.16 40.64 180)
 		(fields_autoplaced yes)
 		(effects
