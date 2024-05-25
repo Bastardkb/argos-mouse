@@ -7198,11 +7198,11 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "c7decb63-10d2-4b51-9b7d-37551ca3ff3f")
-		(at 128.268109 77.768109)
+		(at 146.1 108.55 90)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 -1.8 0)
+			(at 0 -1.8 270)
 			(layer "F.SilkS")
 			(uuid "960e3ff5-0d7e-447f-8bcd-4e3b62b9fc4d")
 			(effects
@@ -7213,7 +7213,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 0 1.9 0)
+			(at 0 1.9 270)
 			(layer "F.Fab")
 			(uuid "8ed75b1d-cfe7-4b80-96ae-28876bc1fa7f")
 			(effects
@@ -7224,7 +7224,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7236,7 +7236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7248,7 +7248,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7266,16 +7266,6 @@
 		(zone_connect 1)
 		(attr exclude_from_pos_files)
 		(fp_line
-			(start -1.4 0.3)
-			(end -1.4 -0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5af98f3e-64f9-40d5-9fac-88c1716c10e1")
-		)
-		(fp_line
 			(start -0.7 -1)
 			(end 0.7 -1)
 			(stroke
@@ -7284,16 +7274,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "09991111-f39d-4e4a-996c-d497f3bb7c9d")
-		)
-		(fp_line
-			(start 0.7 1)
-			(end -0.7 1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d2b0f7f1-2b5a-43a0-bd84-60399b3ded25")
 		)
 		(fp_line
 			(start 1.4 -0.3)
@@ -7305,27 +7285,25 @@
 			(layer "F.SilkS")
 			(uuid "fbb20a63-2be8-450b-934b-641cfd51a359")
 		)
-		(fp_arc
-			(start -1.4 -0.3)
-			(mid -1.194975 -0.794975)
-			(end -0.7 -1)
+		(fp_line
+			(start -1.4 0.3)
+			(end -1.4 -0.3)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "625669d1-d1e5-4e72-9b74-ef4ea15f6acd")
+			(uuid "5af98f3e-64f9-40d5-9fac-88c1716c10e1")
 		)
-		(fp_arc
-			(start -0.7 1)
-			(mid -1.194975 0.794975)
-			(end -1.4 0.3)
+		(fp_line
+			(start 0.7 1)
+			(end -0.7 1)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3f46bca6-88c3-4e31-b087-c197a869e829")
+			(uuid "d2b0f7f1-2b5a-43a0-bd84-60399b3ded25")
 		)
 		(fp_arc
 			(start 0.7 -1)
@@ -7339,6 +7317,17 @@
 			(uuid "ce813d3a-ebd6-428a-ab2a-c7720d775e93")
 		)
 		(fp_arc
+			(start -1.4 -0.3)
+			(mid -1.194975 -0.794975)
+			(end -0.7 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "625669d1-d1e5-4e72-9b74-ef4ea15f6acd")
+		)
+		(fp_arc
 			(start 1.4 0.3)
 			(mid 1.194975 0.794975)
 			(end 0.7 1)
@@ -7349,15 +7338,16 @@
 			(layer "F.SilkS")
 			(uuid "2ebd797e-45c5-4849-ae68-0a41d25b1f92")
 		)
-		(fp_line
-			(start -1.65 -1.25)
-			(end -1.65 1.25)
+		(fp_arc
+			(start -0.7 1)
+			(mid -1.194975 0.794975)
+			(end -1.4 0.3)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "73a3399c-3e60-4ef4-8435-5ec6bc258422")
+			(layer "F.SilkS")
+			(uuid "3f46bca6-88c3-4e31-b087-c197a869e829")
 		)
 		(fp_line
 			(start -1.65 -1.25)
@@ -7370,14 +7360,14 @@
 			(uuid "fef90f15-9579-4432-9e57-5b497e81b807")
 		)
 		(fp_line
-			(start 1.65 1.25)
+			(start -1.65 -1.25)
 			(end -1.65 1.25)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4b649dfa-570b-4b65-bcb5-402e3cd9a8e6")
+			(uuid "73a3399c-3e60-4ef4-8435-5ec6bc258422")
 		)
 		(fp_line
 			(start 1.65 1.25)
@@ -7389,8 +7379,18 @@
 			(layer "F.CrtYd")
 			(uuid "46ac83c3-b050-4e42-b7df-c3802e5d83da")
 		)
+		(fp_line
+			(start 1.65 1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4b649dfa-570b-4b65-bcb5-402e3cd9a8e6")
+		)
 		(pad "1" smd custom
-			(at -0.65 0)
+			(at -0.65 0 90)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
 			(net 3 "+3V3")
@@ -7426,7 +7426,7 @@
 			(uuid "b5c78f88-fcb2-4238-bf09-392158e9a3bf")
 		)
 		(pad "2" smd custom
-			(at 0.65 0)
+			(at 0.65 0 90)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
 			(net 21 "Net-(J7-Pin_7)")
