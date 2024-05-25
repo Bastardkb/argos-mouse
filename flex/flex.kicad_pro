@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -441,9 +441,9 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "ignore",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "similar_labels": "error",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
