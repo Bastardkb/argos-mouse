@@ -6472,6 +6472,10 @@
 		(uuid "2aa226ed-46b6-4d43-8204-14e40460367b")
 	)
 	(no_connect
+		(at 182.88 93.98)
+		(uuid "317d2c83-d4a9-4764-b207-b35b668f6ecc")
+	)
+	(no_connect
 		(at 182.88 132.08)
 		(uuid "32997eed-1677-478f-90c2-735ac0acccb3")
 	)
@@ -7480,16 +7484,6 @@
 			(type default)
 		)
 		(uuid "64c3e650-a90a-4a8a-a1d0-f0c62f6d3612")
-	)
-	(wire
-		(pts
-			(xy 182.88 93.98) (xy 186.69 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69432bba-0352-4154-ba3a-e8e75d6c8c8b")
 	)
 	(wire
 		(pts
@@ -8957,17 +8951,6 @@
 			(justify left bottom)
 		)
 		(uuid "0fa4908e-ad62-4a82-8188-48f965850ecb")
-	)
-	(label "SCLK"
-		(at 186.69 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12fc6169-9c4c-4e47-84f7-c030b63a4fc0")
 	)
 	(label "SCLK"
 		(at 191.77 114.3 180)
