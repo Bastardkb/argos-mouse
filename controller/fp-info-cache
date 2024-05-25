@@ -1,4 +1,4 @@
-23360315493732412
+23362032133741468
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63661,6 +63661,13 @@ Library
 PinHeader_1x04_P2.54mm_Vertical_USB
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
 Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Library
+PinSocket_1x04_P2.54mm_Vertical
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
 0
 4
 4

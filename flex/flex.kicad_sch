@@ -1161,12 +1161,6 @@
 		)
 	)
 	(junction
-		(at 43.18 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b2a0303-efd4-4d13-8d9d-92eb5da6f836")
-	)
-	(junction
 		(at 111.76 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1177,12 +1171,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51f963d4-aa86-45e4-af11-c5bc941336ff")
-	)
-	(junction
-		(at 43.18 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80142679-b2d4-4414-a50a-89fde0f7349b")
 	)
 	(junction
 		(at 111.76 66.04)
@@ -1197,6 +1185,12 @@
 		(uuid "a848651f-4ce0-4dff-ba8f-f2bf64950334")
 	)
 	(junction
+		(at 43.18 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c35b5cdc-a43d-4008-9414-a07820bf55cc")
+	)
+	(junction
 		(at 90.17 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1207,6 +1201,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e271eadb-22ab-4f5b-8590-da24e348310f")
+	)
+	(junction
+		(at 43.18 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f97f9705-8db2-454a-b928-8337324ba9b1")
 	)
 	(junction
 		(at 68.58 66.04)
@@ -1356,6 +1356,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 38.1) (xy 43.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765ad29c-535b-42b5-9290-1c3bd0ea0147")
+	)
+	(wire
+		(pts
 			(xy 43.18 26.67) (xy 48.26 26.67)
 		)
 		(stroke
@@ -1366,16 +1376,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 33.02) (xy 43.18 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "983007b4-2632-4520-a801-147225d122d1")
-	)
-	(wire
-		(pts
 			(xy 60.96 50.8) (xy 68.58 50.8)
 		)
 		(stroke
@@ -1383,6 +1383,16 @@
 			(type default)
 		)
 		(uuid "b2836426-67ac-499c-9d48-18b68e0baf2e")
+	)
+	(wire
+		(pts
+			(xy 43.18 33.02) (xy 43.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdaee9ee-003a-445d-aba2-a35b7ec15fec")
 	)
 	(wire
 		(pts
@@ -1403,16 +1413,6 @@
 			(type default)
 		)
 		(uuid "d40ffdaf-1db3-470b-963c-192dea09de5a")
-	)
-	(wire
-		(pts
-			(xy 43.18 38.1) (xy 43.18 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1bb12be-c536-49c2-9b5e-872a3ce46545")
 	)
 	(wire
 		(pts
@@ -1870,7 +1870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 157.48 58.42 0)
 			(effects
 				(font
@@ -2055,7 +2055,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 38.1 33.02 0)
+		(at 38.1 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2063,73 +2063,6 @@
 		(dnp no)
 		(uuid "43f2a464-323d-45d4-9815-c4e913a1ecb0")
 		(property "Reference" "SW8"
-			(at 38.1 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom:choc"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "515b0b79-9838-4e89-a433-eadd73351741")
-		)
-		(pin "2"
-			(uuid "5ebdf3fc-a3fe-4cee-af0c-acd40035614a")
-		)
-		(instances
-			(project "flex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 38.1 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "44fd5504-d084-44ca-b736-b82954508c71")
-		(property "Reference" "SW5"
 			(at 38.1 30.48 0)
 			(effects
 				(font
@@ -2165,6 +2098,73 @@
 		)
 		(property "Description" ""
 			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "515b0b79-9838-4e89-a433-eadd73351741")
+		)
+		(pin "2"
+			(uuid "5ebdf3fc-a3fe-4cee-af0c-acd40035614a")
+		)
+		(instances
+			(project "flex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 38.1 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "44fd5504-d084-44ca-b736-b82954508c71")
+		(property "Reference" "SW5"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:choc"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+		(property "Footprint" "customs:PinHeader_1x07_P2.54mm_Vertical"
 			(at 73.66 34.29 0)
 			(effects
 				(font
