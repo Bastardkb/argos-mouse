@@ -5983,126 +5983,6 @@
 				)
 			)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 46.99 127)
@@ -6295,12 +6175,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de5acb4f-720f-4abc-bc7b-8541cecbe3ef")
-	)
-	(junction
-		(at 29.845 29.845)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfbbf4f5-0e21-46e0-9440-2393e55dad20")
 	)
 	(junction
 		(at 143.51 38.1)
@@ -7854,7 +7728,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.305 29.845) (xy 29.845 29.845)
+			(xy 27.305 29.845) (xy 32.385 29.845)
 		)
 		(stroke
 			(width 0)
@@ -7891,16 +7765,6 @@
 			(type default)
 		)
 		(uuid "b5ada26e-e725-418c-90e5-169eca9ab234")
-	)
-	(wire
-		(pts
-			(xy 29.845 26.035) (xy 29.845 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ce74d2-d906-4822-9d0d-fe2538b2838a")
 	)
 	(polyline
 		(pts
@@ -8581,16 +8445,6 @@
 			(type default)
 		)
 		(uuid "f9513b13-91c7-498c-ba26-92ea6a2d6a1c")
-	)
-	(wire
-		(pts
-			(xy 29.845 29.845) (xy 32.385 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f985ff14-7859-40fd-a11e-55d16863a549")
 	)
 	(wire
 		(pts
@@ -10303,71 +10157,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 29.845 26.035 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bfdfb16-4331-4cbe-bab7-2cf1d6ef7021")
-		(property "Reference" "#PWR0104"
-			(at 29.845 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 29.845 22.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.845 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.845 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.845 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbe33980-1a9f-493c-8866-d5352fcdd32b")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
