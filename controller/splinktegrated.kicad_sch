@@ -4491,108 +4491,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Memory_Flash:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6856,16 +6754,6 @@
 		)
 		(uuid "42985572-a627-4149-b4ba-b370a4c6123c")
 	)
-	(polyline
-		(pts
-			(xy 80.645 69.215) (xy 80.645 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42bec565-3e48-428a-bcbf-03b2dd69849a")
-	)
 	(wire
 		(pts
 			(xy 243.84 142.24) (xy 243.84 144.78)
@@ -6905,16 +6793,6 @@
 			(type default)
 		)
 		(uuid "469b832c-4941-4dfc-91d0-5ed16e40265f")
-	)
-	(polyline
-		(pts
-			(xy 74.93 93.98) (xy 48.26 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46db8839-3ce8-4f8e-8862-6c423ec0c44b")
 	)
 	(wire
 		(pts
@@ -7455,16 +7333,6 @@
 			(type default)
 		)
 		(uuid "92021fda-1258-4326-80c2-24e338a977e0")
-	)
-	(polyline
-		(pts
-			(xy 48.26 69.215) (xy 48.26 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92d3b19d-4a63-41a3-bdfb-50fcc374c073")
 	)
 	(wire
 		(pts
@@ -8146,16 +8014,6 @@
 		)
 		(uuid "ddab6555-3c52-47a8-9176-a6594d5b9217")
 	)
-	(polyline
-		(pts
-			(xy 48.26 69.215) (xy 74.93 69.215)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dedc81f0-d066-435f-a2ac-c499f4b04786")
-	)
 	(wire
 		(pts
 			(xy 350.52 48.26) (xy 353.06 48.26)
@@ -8346,16 +8204,6 @@
 		)
 		(uuid "f11c7672-6105-4044-abe5-1afa0bb373b4")
 	)
-	(polyline
-		(pts
-			(xy 74.93 69.215) (xy 80.645 69.215)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1947b73-7931-4a35-a6d0-a1802b125596")
-	)
 	(wire
 		(pts
 			(xy 40.005 162.56) (xy 40.005 163.83)
@@ -8425,16 +8273,6 @@
 			(type default)
 		)
 		(uuid "f667ee54-c264-4ee4-a9cc-710160e7655c")
-	)
-	(polyline
-		(pts
-			(xy 80.645 93.98) (xy 74.93 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7656e08-3dcc-49aa-80fb-7178b8773d7c")
 	)
 	(wire
 		(pts
@@ -8602,19 +8440,6 @@
 			(justify left bottom)
 		)
 		(uuid "cf2192b1-6812-48b8-a4e3-5cbf15ab95c0")
-	)
-	(text "Plate screws"
-		(exclude_from_sim no)
-		(at 65.405 69.215 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "df5564c0-a42f-4127-80e4-3d05db60aef3")
 	)
 	(text "Flash memory"
 		(exclude_from_sim no)
@@ -10287,72 +10112,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1880b471-5cee-4172-b0e8-0fbdd21b2287")
-		(property "Reference" "H2"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NA_M4"
-			(at 57.15 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "drawings:MountingHole_3mm_Pad_Via"
-			(at 58.42 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bab19d14-471f-49be-a5dd-8e35d51bb7d0")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -12285,72 +12044,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c68c81c-28a3-4ea7-8478-0d444be38c1f")
-		(property "Reference" "#PWR034"
-			(at 58.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.264 88.2649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34b2273e-984f-4110-822e-66fe9f23cfbe")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14516,72 +14209,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 52.07 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e29f716b-d53e-44dc-be20-e496ef7b37cd")
-		(property "Reference" "H1"
-			(at 50.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NA_M4"
-			(at 50.8 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "drawings:MountingHole_3mm_Pad_Via"
-			(at 52.07 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c547019b-4c96-4fe9-9929-b63d7a8892ea")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 171.45 36.83 0)
 		(unit 1)
@@ -14706,72 +14333,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eec16250-5028-4cb7-bf00-f762ee0ff2b6")
-		(property "Reference" "#PWR032"
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 51.914 88.2649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b743aa8-ea39-4003-b377-124fff5b6a2e")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
