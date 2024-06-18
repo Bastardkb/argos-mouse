@@ -33,3 +33,4 @@ flex/flex-backups/*
 flex/~*
 
 # Project specific files
+*.lck
